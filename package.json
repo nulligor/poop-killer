@@ -1,0 +1,21 @@
+{
+  "author": "Igor Soares <igor.larcs@gmail.com> (http://www.ripfoghorn.github.io)",
+  "license": "MIT",
+  "licenseUrl": "http://www.opensource.org/licenses/mit-license.php",
+  "name": "poop-killer",
+  "version": "1.0.9",
+  "description": "Kill that Poop, grab that diploma",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "npm run build && webpack-dev-server --port=8000"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^2.11.0",
+    "webpack": "^3.4.1",
+    "raw-loader": "^0.5.1"
+  },
+  "dependencies": {
+    "phaser": "^3.3.0"
+  }
+}
